@@ -1,1 +1,1 @@
-print("Hola mundo") 
+print("Hola mundo")  #print es la instruccion que imprime en pantalla lo que se ponga entre comillas
