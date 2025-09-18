@@ -1,3 +1,5 @@
+# pylint: disable=no-member, missing-module-docstring, trailing-whitespace
+
 "En el siguiente programa se muestra un ejemplo de las operaciones matematicas basicas en python"
 
 print(20 + 100) #Aqui, se imrpime en la consola el resultado de la operacion entre parentesis
@@ -28,12 +30,46 @@ print(resultado)
 numero3 = 10
 numero4 = 3
 
-cociente = numero1 / numero2
-resto = numero1 & numero2
-division_entera = numero3 // numero4
+cociente = numero1 / numero2 #Division normal de los valores de las variables 
+resto = numero1 % numero2  #Division modulo, que devuelve el residuo de la division
+division_entera = numero3 // numero4  #Division que devuelve un resultado entero
 
 print("Cociente:", cociente)
 print("Residuo:", resto)
 print("division_entera:", division_entera)
+
+
+#Programa para calcular la media de edades:
+
+#Lista con edades:
+edades = [15, 26, 54, 22, 17, 50, 33, 32]
+
+#Obtener la suma de las edades:
+suma_edades = sum(edades)
+
+#Obtener el numero total de edades (cuenta los valores de la lista):
+numero_edades = len(edades)
+
+#Calcular la media:
+media = suma_edades / numero_edades
+
+#Imprimir resultados:
+print("En total hay:", numero_edades, "edades")
+print("La edad media de todas ellas es:", media)
+
+#Calculo de 2 elevado a la 3:
+operacion_potencia = 2**3
+print("El resultado  de la optencia es: ", operacion_potencia)
+
+#Calculo con parentesis:
+operacion_parentesis = (10 + 6) *2
+print("El resultado de la operacion por Jerarquia es:", operacion_parentesis)
+
+#Representar numeros grandes con decimal:
+numero_largo = 56_404_327_843.78
+print("El resultado del numero grande en decimal es:", numero_largo)
+
+
+
 
 
