@@ -4,6 +4,10 @@ El repositorio contiene una carpeta llamada "Curso_Python", en el cual se encuen
 Las prácticas están divididas en:
 <li>
 Python Básico.
+</li>
+<li>
 Python Orientado a objetos.
+</li>
+<li>
 Pyhton Avanzado.
 </li>
