@@ -12,3 +12,9 @@ print(frase_completa)  # Se muestra el resultado, en este caso la palabra comple
 print('"El tiempo es oro", me dijo') 
 
 print("\"El tiempo es oro\", me dijo.")
+
+nombre = input("Por favor, introduzca su nombre: \n") #Se declara la variable nombre, y va a guardar lo que se introduzca
+print(f"Hola, {nombre}. Tenga un maravilloso dia.") #"(f) permite hacer una técnica para poder poner el valor de una variable, y se pone entre llaves"
+
+PI = 3.1416  #Se declara la variable PI y se le asigna el valor de PI
+print(f"El valor de PI siempre sera {PI}.") #Se imprime el valor de la variable PI

@@ -20,23 +20,23 @@ print(operacion_division)#Imprime el resultado de la variable
 operacion_mixta = 100 * 2 + 8 / 4 - 9 + 7 * 14 * 5
 print(operacion_mixta)#Imprime el resultado de la variable
 
-numero1 = 100
-numero2 = 400
+numero1 = 100 #Se declara la variable y se le asigna un valor
+numero2 = 400  #Se declara otra variable y se le asigna otro valor
 
-resultado = numero1 + numero2
+resultado = numero1 + numero2  #La variable resultado guarda el valor de la suma
 
-print(resultado)
+print(resultado) #Imprime el resultado de la variable "resultado""
 
-numero3 = 10
+numero3 = 10  #Se declara una variable
 numero4 = 3
 
 cociente = numero1 / numero2 #Division normal de los valores de las variables 
 resto = numero1 % numero2  #Division modulo, que devuelve el residuo de la division
 division_entera = numero3 // numero4  #Division que devuelve un resultado entero
 
-print("Cociente:", cociente)
-print("Residuo:", resto)
-print("division_entera:", division_entera)
+print("Cociente:", cociente) #Imprime el cociente de la division
+print("Residuo:", resto) #Imprime el valor del residuo de la division
+print("division_entera:", division_entera) #Imprime el valor del cociente de la division
 
 
 #Programa para calcular la media de edades:
